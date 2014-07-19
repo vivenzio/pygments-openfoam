@@ -9,14 +9,6 @@ This is an extension of C++ lexer that just add some keywords used in OpenFOAM_.
 Install
 +++++++
 
-Using PyPI and pip
-------------------
-
-::
-
-    $ (sudo) pip install pygments-openfoam
-
-
 Manual
 ------
 
