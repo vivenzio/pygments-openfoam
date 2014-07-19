@@ -3,23 +3,23 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pygments-rspec',
+    name='pygments-openfoam',
     version='0.2',
-    description='Pygments lexer for Ruby + RSpec.',
+    description='Pygments lexer for C++ + OpenFOAM.',
     long_description=open('README.rst').read(),
-    keywords='pygments ruby rspec lexer',
+    keywords='pygments c++ openfoam lexer',
     license='BSD',
 
-    author='Hugo Maia Vieira',
-    author_email='hugomaiavieira@gmail.com',
+    author='Kasper Linnestad',
+    author_email='kasper1301@gmail.com',
 
-    url='https://github.com/hugomaiavieira/pygments-rspec',
+    url='https://github.com/kasper1301/pygments-openfoam',
 
     packages=find_packages(),
     install_requires=['pygments >= 1.4'],
 
     entry_points='''[pygments.lexers]
-                    rspec=pygments_rspec:RspecLexer''',
+                    openfoam=pygments_openfoam:OpenFOAMLexer''',
 
     classifiers=[
         'Development Status :: 4 - Beta',

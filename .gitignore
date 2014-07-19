@@ -1,4 +1,4 @@
-pygments_style_github.egg-info/
+pygments_openfoam.egg-info/
 build/
 dist/
 *.pyc
