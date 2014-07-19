@@ -1,5 +1,5 @@
-Pygments RSpec
-==============
+Pygments OpenFOAM
+=================
 
 This is an extension of C++ lexer that just add some keywords used in OpenFOAM_.
 
