@@ -1,11 +1,9 @@
 Pygments RSpec
 ==============
 
-This is an extension of Ruby lexer that just add some keywords used on RSpec_,
-including some keywords used with Capybara_ too.
+This is an extension of C++ lexer that just add some keywords used in OpenFOAM_.
 
-.. _RSpec: http://rspec.info
-.. _Capybara: https://github.com/jnicklas/capybara
+.. _OpenFOAM: http://www.openfoam.org/
 
 
 Install
@@ -16,7 +14,7 @@ Using PyPI and pip
 
 ::
 
-    $ (sudo) pip install pygments-rspec
+    $ (sudo) pip install pygments-openfoam
 
 
 Manual
@@ -24,15 +22,15 @@ Manual
 
 ::
 
-    $ git clone git://github.com/hugomaiavieira/pygments-rspec.git
-    $ cd pygments-rspec
+    $ git clone git://github.com/kasper1301/pygments-openfoam.git
+    $ cd pygments-openfoam
     $ (sudo) python setup.py install
 
 
 Using
 +++++
 
-Just use the **rspec** "language".
+Just use the **OpenFOAM** "language".
 
 
 Using in LaTeX documents
