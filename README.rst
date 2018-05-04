@@ -1,9 +1,10 @@
-Pygments OpenFOAM
-=================
+Pygments C++ with User Defined Types
+====================================
 
-This is an extension of C++ lexer that just add some keywords used in OpenFOAM_.
+This is an extension of C++ lexer that just permits to add some user defined
+types (classes, structs, etc.) to be displayed in the same manner as built-in
+(plain) types.
 
-.. _OpenFOAM: http://www.openfoam.org/
 
 
 Install
@@ -14,15 +15,16 @@ Manual
 
 ::
 
-    $ git clone git://github.com/kasper1301/pygments-openfoam.git
-    $ cd pygments-openfoam
+    $ git clone git://github.com/vivenzio/pygments-udt.git
+    $ cd pygments-udt
     $ (sudo) python setup.py install
 
 
 Using
 +++++
 
-Just use the **OpenFOAM** "language".
+Just use the configuration file to add user defined types to be displayed in the
+same way as "ordinary" types.
 
 
 Using in LaTeX documents
